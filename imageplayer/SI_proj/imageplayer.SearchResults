@@ -1,0 +1,8 @@
+---- input Matches (7 in 6 files) ----
+Audio.c (e:\imageplayer\audios):static enum mad_flow input(void *data, struct mad_stream *stream) 
+Audio.c (e:\imageplayer\audios):	mad_decoder_init(&decoder, mp3fp, input, 0 /* header */, 0 /* filter */, output, error, 0 /* message */);  
+Audio.h (e:\imageplayer\audios\include):#define	DEVICE_KEY	"/dev/input/event0"
+Audioplay.c (e:\imageplayer\audios):#include <linux/input.h>
+Audio_manager.c (e:\imageplayer\audios):#include <linux/input.h>
+Base.h (e:\imageplayer\include):#define DEVICE_TOUCHSCREEN		"/dev/input/event2"
+Image_manager.c (e:\imageplayer\image_manager):#include <linux/input.h>
